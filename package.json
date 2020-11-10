@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn parcel serve --public-url $(pwd)/dist index.html",
-    "build": "yarn parcel build --public-url $(pwd)/dist index.html ",
+    "start": "yarn parcel serve --public-url $(pwd)/dist --global app index.html",
+    "build": "yarn parcel build --public-url $(pwd)/dist --global app index.html ",
     "test": "jest"
   },
   "devDependencies": {
