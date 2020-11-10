@@ -60,6 +60,12 @@ yarn test
 
 The package use **parcel** in order to bundle and build the application, **jest** for unit testing and it integrates _typescript_ out-of-the-box.
 
+[index.html](index.html): You can edit this file in order to change the web interface of your application. Add here HTML components with an _id_ and use it with JavaScript/TypeScript to make your page interactive.
+
+[src](src): You can add your own source code in the `src` directory: write new functions and new modules. Export your modules through _index.ts_.
+
+[tests](src/__tests__): You can add your own tests in the `src/__tests__` directory. Remember that you have to import from `src` the functions you need to test. Remember that we are using [jest](https://jestjs.io/) for unit testing.
+
 ## License
 
 The project is MIT licensed. See [LICENSE](LICENSE) file.
